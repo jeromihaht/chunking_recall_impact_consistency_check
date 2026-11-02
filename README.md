@@ -1,11 +1,11 @@
-# robotctrl_jd301
+# chunking_recall_impact_consistency_check
 
 **找出机器人运动控制工程师·分块策略对召回的影响里互相矛盾的两处并排列出。**
 
-`robotctrl_jd301` —— 在同一个输入里两两比对，检测机器人运动控制工程师·分块策略对召回的影响相关的矛盾表述，把冲突双方原样并排呈现
+`chunking_recall_impact_consistency_check` —— 在同一个输入里两两比对，检测机器人运动控制工程师·分块策略对召回的影响相关的矛盾表述，把冲突双方原样并排呈现
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`robotctrl_jd301.py` 拷走就能用
+- 单文件，`chunking_recall_impact_consistency_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install jeromihaht-robotctrl_jd301
+pip install jeromihaht-chunking_recall_impact_consistency_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-robotctrl_jd301 --help
+chunking_recall_impact_consistency_check --help
 ```
 
-也可以不用安装，直接把 `robotctrl_jd301.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `chunking_recall_impact_consistency_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ robotctrl_jd301 --help
 ## 用法
 
 ```bash
-python robotctrl_jd301.py --file input.txt
-python robotctrl_jd301.py --text "示例内容"
-python robotctrl_jd301.py --file input.txt --json
+python chunking_recall_impact_consistency_check.py --file input.txt
+python chunking_recall_impact_consistency_check.py --text "示例内容"
+python chunking_recall_impact_consistency_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python robotctrl_jd301.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_robotctrl_jd301.py
+python test_chunking_recall_impact_consistency_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_robotctrl_jd301.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/jeromihaht/robotctrl_jd301>
+- GitHub 仓库：<https://github.com/jeromihaht/chunking_recall_impact_consistency_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_robotctrl_jd301.py
 jeromihaht 做机器人运动控制工程师·分块策略对召回的影响相关的问题，方向对标华为的架构机器人运动控制工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://jeromihaht.github.io>
-- 仓库：<https://github.com/jeromihaht/robotctrl_jd301>
+- 仓库：<https://github.com/jeromihaht/chunking_recall_impact_consistency_check>
 
 ## 许可
 
